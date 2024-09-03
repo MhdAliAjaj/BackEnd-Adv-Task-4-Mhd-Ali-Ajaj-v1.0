@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "43ac5a9d-b386-4578-af65-7e4ceb9e83e2",
+		"name": "Library Management System Task 4 back_Adv v1.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34450681"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": []
+		},
+		{
+			"name": "Book",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Borrow",
+			"item": [
+				{
+					"name": "borrow",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						]
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
